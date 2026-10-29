@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Welcome heading -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Welcome Back!"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#283593"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="College Lost &amp; Found"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:gravity="center" />
+
+        <!-- Email field with icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_lf_input"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_email"
+                android:contentDescription="Email"
+                android:tint="#3949AB" />
+
+            <EditText
+                android:id="@+id/etLoginEmail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:background="@null"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColor="#202A44"
+                android:textColorHint="#667085"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Password field with lock and eye icons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_lf_input"
+            android:paddingStart="14dp"
+            android:paddingEnd="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_lock"
+                android:contentDescription="Password"
+                android:tint="#3949AB" />
+
+            <EditText
+                android:id="@+id/etLoginPassword"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:background="@null"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="#202A44"
+                android:textColorHint="#667085"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/ivTogglePassword"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="12dp"
+                android:src="@drawable/ic_visibility"
+                android:contentDescription="Show password"
+                android:tint="#3949AB"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <!-- Login button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="32dp"
+            android:text="LOGIN"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3949AB" />
+
+        <!-- Register navigation -->
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Don't have an account? Register"
+            android:textSize="16sp"
+            android:textColor="#3949AB"
+            android:gravity="center"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>

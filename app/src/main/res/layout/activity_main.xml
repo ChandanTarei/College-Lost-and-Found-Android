@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F7FF">
+
+    <!-- Lost and Found Logo -->
+
+    <ImageView
+        android:id="@+id/ivWelcomeLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/lost_found_logo"
+        android:contentDescription="Lost and Found Logo"
+        android:scaleType="fitCenter" />
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College Lost &amp; Found"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#283593"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Find what you lost.\nReturn what you found."
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Get Started"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

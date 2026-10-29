@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- Profile Heading -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#283593"
+            android:gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <!-- Profile Icon -->
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#3949AB"
+            android:gravity="center"
+            android:text="👤"
+            android:textSize="48sp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Student Name -->
+        <TextView
+            android:id="@+id/tvProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College Lost and Found"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:gravity="center"
+            android:layout_marginBottom="35dp" />
+
+        <!-- Email Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#283593" />
+
+        <!-- Email Value -->
+        <TextView
+            android:id="@+id/tvProfileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="student@example.com"
+            android:textSize="16sp"
+            android:textColor="#202A44"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_lf_input" />
+
+        <!-- Phone Number Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Phone Number"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#283593"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Editable Phone Number -->
+        <EditText
+            android:id="@+id/etProfilePhone"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_lf_input"
+            android:backgroundTint="@null"
+            android:hint="Enter 10-digit mobile number"
+            android:inputType="phone"
+            android:digits="0123456789"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textColor="#202A44"
+            android:textColorHint="#667085"
+            android:textSize="16sp" />
+
+        <!-- Save Phone Button -->
+        <Button
+            android:id="@+id/btnSavePhone"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="24dp"
+            android:text="Save Phone Number"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3949AB" />
+
+        <!-- User ID Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User ID"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#283593" />
+
+        <!-- Firebase UID -->
+        <TextView
+            android:id="@+id/tvProfileUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Firebase User ID"
+            android:textSize="14sp"
+            android:textColor="#202A44"
+            android:padding="12dp"
+            android:background="@drawable/bg_lf_input"
+            android:textIsSelectable="true" />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnProfileBack"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Back to Dashboard"
+            android:layout_marginTop="35dp"
+            android:backgroundTint="#3949AB"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

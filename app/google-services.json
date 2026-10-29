@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435107953906",
+    "project_id": "collegelostandfound-2007",
+    "storage_bucket": "collegelostandfound-2007.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435107953906:android:2c8d8e7927b8ead966646b",
+        "android_client_info": {
+          "package_name": "com.example.collegelostandfound"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyrvjtM-vP6OmCvQyyvqe5w5V3nACOlgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

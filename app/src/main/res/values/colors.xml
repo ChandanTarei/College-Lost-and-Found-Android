@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lf_primary">#3048A5</color>
+    <color name="lf_primary_dark">#223579</color>
+    <color name="lf_teal">#008577</color>
+    <color name="lf_background">#F5F7FC</color>
+    <color name="lf_surface">#FFFFFF</color>
+    <color name="lf_text">#202A44</color>
+    <color name="lf_muted">#667085</color>
+    <color name="lf_border">#DDE3F0</color>
+    <color name="lf_danger">#C62828</color>
+    <color name="lf_success">#2E7D32</color>
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College Lost &amp; Found"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#283593"
+            android:layout_marginTop="32dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find what you lost, return what you found"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Dashboard"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnLostItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lost Items"
+            android:backgroundTint="#3949AB"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnFoundItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Found Items"
+            android:backgroundTint="#3949AB"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnReportItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Lost / Found Item"
+            android:backgroundTint="#3949AB"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:backgroundTint="#3949AB"
+            android:layout_marginBottom="16dp"/>
+
+
+        <Button
+            android:id="@+id/btnMyReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Reports"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#3949AB"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>

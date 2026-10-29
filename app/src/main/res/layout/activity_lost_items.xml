@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F7FF">
+
+    <!-- Lost Items Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lost Items"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#283593"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find items reported lost by students"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Search Field -->
+    <EditText
+        android:id="@+id/etSearchLost"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_lf_input"
+        android:backgroundTint="@null"
+        android:hint="Search lost items..."
+        android:inputType="text"
+        android:singleLine="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#202A44"
+        android:textColorHint="#667085"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Lost Items List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerLostItems"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="12dp" />
+
+</LinearLayout>

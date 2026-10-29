@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp">
+
+    <!-- Item Name -->
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Black Wallet"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#283593" />
+
+    <!-- Category -->
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category: Wallet"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:layout_marginTop="8dp" />
+
+    <!-- Location -->
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location: College Library"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:layout_marginTop="6dp" />
+
+    <!-- Date -->
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: 2026-10-28"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:layout_marginTop="6dp" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="14sp"
+        android:textColor="#424242"
+        android:layout_marginTop="6dp" />
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/tvItemStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Pending"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#F57C00"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Item Photo -->
+    <ImageView
+        android:id="@+id/ivReportPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="#E8EAF6"
+        android:scaleType="centerCrop"
+        android:contentDescription="Item photo"
+        android:visibility="gone" />
+
+    <!-- My Reports Buttons: 2 rows, 2 columns -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <!-- First Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Edit Report -->
+            <Button
+                android:id="@+id/btnEditReport"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="Edit Report"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#1976D2"
+                android:visibility="gone" />
+
+            <!-- Contact Number -->
+            <Button
+                android:id="@+id/btnViewContact"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="Contact Number"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#7054AA"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Second Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <!-- Delete Report -->
+            <Button
+                android:id="@+id/btnDeleteReport"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="Delete Report"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#D32F2F"
+                android:visibility="gone" />
+
+            <!-- Update Status -->
+            <Button
+                android:id="@+id/btnUpdateStatus"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="Update Status"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#2E7D32"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
