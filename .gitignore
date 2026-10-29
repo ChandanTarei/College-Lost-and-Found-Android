@@ -13,3 +13,25 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Android build files
+/app/build/
+*.apk
+*.aab
+
+# Android Studio local settings
+.idea/
+local.properties
+
+# Signing keys
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# Environment and private credentials
+.env
+.env.*
+service-account*.json
+*serviceAccountKey*.json
+google-cloud-key*.json
